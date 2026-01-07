@@ -3,108 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soniya Nitin Kadam | Portfolio</title>
+    <title>Soniya Nitin Kadam | Wireless Network Architect</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="apple-nav">
         <div class="nav-content">
             <a href="#" class="logo">Soniya Kadam</a>
-            <ul class="nav-links">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#research">Research</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Portfolio</a>
+                <a href="mailto:soniya.nkadam@gmail.com" class="btn-contact">Get in Touch</a>
+            </div>
         </div>
     </nav>
 
-    <section class="hero">
+    <header class="hero-section">
+        <div class="hero-bg-gradient"></div>
         <div class="hero-content">
-            <h1 class="gradient-text">Soniya Nitin Kadam</h1>
-            <p class="subtitle">Wireless Network Engineer & Research Assistant</p>
-            <p class="contact-info">soniya.nkadam@gmail.com | 857-693-9520</p>
+            <span class="eyebrow">M.S. Wireless Network Engineering</span>
+            <h1 class="hero-title">Engineering the<br><span class="gradient-text">Connected Future.</span></h1>
+            <p class="hero-sub">Specializing in 5G/6G, MPLS, and Distributed Intelligence.</p>
+            <div class="hero-stats">
+                <div class="stat-card"><h3>3.58</h3><p>Northeastern GPA</p></div>
+                <div class="stat-card"><h3>9.32</h3><p>Bachelor's GPA</p></div>
+                <div class="stat-card"><h3>50+</h3><p>Protocol Bugs Resolved</p></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="full-section">
+        <div class="container">
+            <h2 class="section-label">Industry Impact</h2>
+            <div class="bento-grid">
+                <div class="bento-item main-work accent-blue">
+                    <div class="work-header">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg" alt="Nokia" class="brand-logo">
+                        <span class="date-tag">Jan 2025 – Aug 2025</span>
+                    </div>
+                    <h3>Software Quality Assurance Co-op | MPLS Team</h3>
+                    <p class="summary">Driving system reliability for Nokia’s 7x50 Service Router platforms[cite: 19, 21].</p>
+                    <ul class="detail-list">
+                        <li>Executed feature testing for 7750 and 7250 IXR platforms, ensuring L2/L3 protocol integrity[cite: 21].</li>
+                        <li>Automated 50+ regression test cases for MPLS, LDP, and Segment Routing using Python and TCL[cite: 22].</li>
+                        <li>Reduced test failures by 35% by implementing robust exception handling in SR OS command parsing[cite: 24].</li>
+                        <li>Optimized packet forwarding efficiency through advanced Wireshark protocol analysis[cite: 23, 25].</li>
+                    </ul>
+                </div>
+                <div class="bento-item side-stats">
+                    <h4>Tech Stack</h4>
+                    <div class="tag-cloud">
+                        <span>SR OS</span><span>IXIA</span><span>SIREN</span><span>Pyshl</span><span>SecureCRT</span><span>Git</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="education" class="section">
-        <h2 class="section-title">Education</h2>
-        <div class="bento-grid">
-            <div class="card glass">
-                <span class="date">Dec 2025</span>
-                <h3>Northeastern University</h3>
-                <p class="highlight">MS in Wireless Network Engineering (CGPA: 3.58)</p>
-                <p class="detail">Courses: 6G Terahertz Comm, Mobile Networking, IoT, Computer Networks.</p>
-            </div>
-            <div class="card glass">
-                <span class="date">May 2023</span>
-                <h3>Thakur College of Engineering</h3>
-                <p class="highlight">BE in Electronics & Telecommunication (CGPA: 9.32)</p>
-                <p class="detail">Specialization: Advanced 5G Communication.</p>
+    <section id="research" class="full-section research-bg">
+        <div class="container">
+            <h2 class="section-label">Pioneering Research</h2>
+            <div class="bento-grid">
+                <div class="bento-item tall accent-purple">
+                    <span class="tag">GENESYS Lab</span>
+                    <h3>Distributed LLM Framework</h3>
+                    <p>Optimizing Google’s Gemma LLM across 20+ heterogeneous edge nodes[cite: 35, 37, 39].</p>
+                    <ul class="detail-list">
+                        <li>Designed adaptive layer distribution algorithms for 18 transformer layers[cite: 39].</li>
+                        <li>Deployed systems on NSF Colosseum using Software-Defined Radios (SDR)[cite: 43].</li>
+                        <li>Managed cellular (4G/LTE), Wi-Fi, and Ethernet via SDN principles[cite: 40].</li>
+                    </ul>
+                </div>
+                <div class="bento-item accent-pink">
+                    <h3>Teaching & Mentorship</h3>
+                    <p>Supported 100+ students as Course Assistant for Network Fundamentals[cite: 28, 30].</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="section">
-        <h2 class="section-title">Experience</h2>
-        <div class="long-card glass">
-            <div class="card-header">
-                <h3>Nokia | Software QA Co-op (MPLS Team)</h3>
-                <span class="date">Jan 2025 – Aug 2025</span>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-label">Core Competencies</h2>
+            <div class="skills-radar-grid">
+                <div class="skill-group">
+                    <h4>Networking & Protocols</h4>
+                    <p>TCP/IP, BGP, MPLS, OSPF, IS-IS, RSVP-TE, 5G, LTE Advanced[cite: 16].</p>
+                </div>
+                <div class="skill-group">
+                    <h4>Programming</h4>
+                    <p>Python, C/C++, TCL, Shell Scripting, Pyshl[cite: 15].</p>
+                </div>
+                <div class="skill-group">
+                    <h4>Tools & Simulation</h4>
+                    <p>Wireshark, NS-3, MATLAB, Feko, IXIA, SIREN, Selenium, Tableau[cite: 16].</p>
+                </div>
             </div>
-            <ul>
-                <li>Tested Nokia 7x50 Service Router platforms for L2/L3 reliability.</li>
-                <li>Optimized 50+ regression test cases for MPLS, LDP, and Segment Routing.</li>
-                <li>Reduced test failures by 35% through debugging automation scripts.</li>
-                <li>Resolved 50+ critical protocol bugs in SR OS releases.</li>
-            </ul>
-        </div>
-
-        <div class="long-card glass">
-            <div class="card-header">
-                <h3>Northeastern | Research Assistant (GENESYS Lab)</h3>
-                <span class="date">June – Dec 2024</span>
-            </div>
-            <ul>
-                <li>Engineered distributed computing for Google’s Gemma LLM across 20+ nodes.</li>
-                <li>Deployed systems on NSF Colosseum using software-defined radios.</li>
-                <li>Developed fault-tolerant algorithms for real-time node failure detection.</li>
-            </ul>
         </div>
     </section>
 
-    <section id="skills" class="section">
-        <h2 class="section-title">Technical Expertise</h2>
-        <div class="skills-container">
-            <div class="skill-pill purple">Python/C++/TCL</div>
-            <div class="skill-pill blue">TCP/IP & BGP</div>
-            <div class="skill-pill orange">5G & Cellular</div>
-            <div class="skill-pill green">Wireshark</div>
-            <div class="skill-pill pink">NS-3 & MATLAB</div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <h2 class="section-title">Key Projects</h2>
-        <div class="bento-grid">
-            <div class="card accent-blue">
-                <h3>Terahertz Ray Tracing</h3>
-                <p>Hybrid channel modeling for indoor 6G communications using MATLAB and Feko.</p>
+    <section id="projects" class="container">
+        <h2 class="section-label">Project Gallery</h2>
+        <div class="project-strip">
+            <div class="project-card">
+                <h3>Terahertz Modeling</h3>
+                <p>Hybrid channel modeling with ray tracing for indoor 6G[cite: 58, 59].</p>
             </div>
-            <div class="card accent-purple">
+            <div class="project-card">
                 <h3>CSMA/CA Simulation</h3>
-                <p>GUI-driven analysis of backoff algorithms (BEB, EIED) using Python.</p>
+                <p>GUI-driven analysis of BEB and EIED backoff algorithms[cite: 50].</p>
             </div>
-            <div class="card accent-orange">
-                <h3>NS-3 Network Analysis</h3>
-                <p>C++ simulations to evaluate wireless protocol performance and packet traces.</p>
+            <div class="project-card">
+                <h3>Socket Programming</h3>
+                <p>Python client for remote math evaluation and secure protocol handling[cite: 51, 52].</p>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <p>© 2026 Soniya Nitin Kadam. LinkedIn | Github.</p>
+        <div class="footer-content">
+            <p>Soniya Nitin Kadam | MS Wireless Network Engineering | Boston, MA</p>
+            <div class="footer-links">
+                <a href="#">LinkedIn</a><a href="#">Github</a><a href="#">Resume PDF</a>
+            </div>
+        </div>
     </footer>
 
 </body>
