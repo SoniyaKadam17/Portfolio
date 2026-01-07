@@ -38,6 +38,7 @@ body { background: var(--bg-black); color: #fff; font-family: -apple-system, Bli
 .exp-header { display: flex; justify-content: space-between; margin-bottom: 20px; }
 .accent-blue { border-left: 8px solid var(--apple-blue); }
 .accent-purple { border-left: 8px solid var(--apple-purple); }
+.accent-pink {border-left: 8px solid var(--apple-pink); }
 .detail-list { list-style: none; color: #a1a1a6; }
 .detail-list li { margin-bottom: 10px; padding-left: 20px; position: relative; }
 .detail-list li::before { content: "→"; color: var(--apple-blue); position: absolute; left: 0; }
